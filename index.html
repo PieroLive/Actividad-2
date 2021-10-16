@@ -4,29 +4,71 @@
 <head>
     <meta charset="utf-8">
 
-    <!--referencias -->
-    <link rel="stylesheet" href="./resources/Boostrap/bootstrap.min.css" <title>Servicios</title>
+    <!--Referencias-->
+    <link rel="stylesheet" href="./resources/Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./resources/css/style.css">
+
+
+    <title>Servicios</title>
+
+
+    <!--Aplicando estilos de tipo interno-->
+    <style>
+        h1 {
+            color: blueviolet !important;
+        }
+    </style>
+
 </head>
 
 <body>
-    <!--navegacion-->
-
+    <!--Barra de navegación-->
     <div class="container">
-
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Servicios</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ItemsMenues" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="ItemsMenues">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="https://www.google.com/" target="_blank">Google</a>
+                    <a class="nav-link" href="https://www.certus.edu.pe/" target="_blank">Certus</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Otros</a>
+                </div>
+            </div>
+        </nav>
     </div>
 
-    <!--seccion 1 home-->
-    <div class="container">
-        <h1>Home</h1>
+    <!--Seccion 1 Home-->
+    <div class="container modBloque">
+        <div class="card shadow">
+            <img src="https://static.vecteezy.com/system/resources/previews/002/174/577/non_2x/modern-abstract-geometric-red-and-black-color-background-motion-sport-lines-poster-wallpaper-landing-page-illustration-vector.jpg" class="card-img-top" alt="es una imagen">
+            <div class="card-body">
+                <h5 class="card-title">Card Bienvenidos alumnos Certus</h5>
+                <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                    survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                    with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <!--<button class"btn btn-primary>hola boton</button>-->
+                <a href="#" class="btn btn-sm btn-primary " style="box-shadow:" rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;>Innova</a>
+
+
+            </div>
+        </div>
     </div>
 
-    <!--seccion 2 Servicios-->
+    <!--Seccion 2 Servicios-->
     <div class="container">
         <h1>Servicios</h1>
+
+        <p>hola sección servicios</p>
+
     </div>
 
-    <script src="./resources/Boostrap/jquery-3.5.1.slim.min.js"></script>
-    <script src="./resources/Boostrap/boostrap.bundle.min.js"></script>
+    <script src="./resources/Bootstrap/jquery-3.5.1.slim.min.js"></script>
+    <script src="./resources/Bootstrap/bootstrap.bundle.min.js"></script>
 
 </body>
 
