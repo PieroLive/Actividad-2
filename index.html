@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./resources/css/style.css">
 
 
-    <title>Servicios</title>
+    <title>Strett Shoes</title>
 
 
     <!--Aplicando estilos de tipo interno-->
@@ -17,58 +17,114 @@
         h1 {
             color: blueviolet !important;
         }
+        
+        .tamañoIMG {
+            width: 240px;
+            height: 440px;
+        }
+        
+        .fondoDescripcion {
+            background-color: #3a4a4a91;
+        }
+        
+        .removerjumbotron {
+            background-color: transparent
+        }
     </style>
 
 </head>
 
 <body>
-    <!--Barra de navegación-->
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Servicios</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ItemsMenues" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="ItemsMenues">
-                <div class="navbar-nav">
-                    <a class="nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="https://www.google.com/" target="_blank">Google</a>
-                    <a class="nav-link" href="https://www.certus.edu.pe/" target="_blank">Certus</a>
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Otros</a>
+
+
+
+    <!--Barra de navehación-->
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="">INICIO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./views/iniciar sesion.html">INICIAR SESION <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./views/REGISTRARSE.html">REGISTRARSE</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                NUEVO
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./views/HOMBRES.html">HOMBRE</a>
+                        <a class="dropdown-item" href="./views/MUJERES.html">MUJERES</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./views/PRODUCTOS.html">PRODUCTOS</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link indisabled" href="./views/OFERTAS.html" tabindex="-1" aria-disabled="true">OFERTAS.</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <center>
+        <div>
+            <!--INICIO SLIDE-->
+            <h4 style="float: none; font-weight: 700; font-size: 2em; ">ULTIMOS LANZAMIENTOS</h4>
+            <hr>
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <!--SLIDE 1-->
+                <div class="carousel-inner fondoDescripcion">
+                    <div class="carousel-item active">
+                        <img src="https://dackscompany.com/blog/wp-content/uploads/2019/08/zapatillas-urbanas-stefan-janoski.jpg" class="d-block w-100 tamañoIMG" alt="Imagen 2">
+                        <class="d-block w-100 tamañoIMG" alt="Imagen 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="font-weight: 900; color: black;">URBANO</h5>
+                                <p style="font-weight: 500; color: black;">LO MEJOR PARA ESTAR A LA MODA.</p>
+                            </div>
+                    </div>
+                    <!--SLIDE 2-->
+                    <div class="carousel-item fondoDescripcion">
+                        <img src="" class="d-block w-100 tamañoIMG" alt="Imagen 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="color: black; font-weight: 900;">DEPORTIVAS</h5>
+                            <p style="color: black;font-weight: 500">LO INDICADO PARA LOS QUE HACEN EJERCICIOS.</p>
+                        </div>
+                    </div>
+                    <!--SLIDE 3-->
+                    <div class="carousel-item fondoDescripcion">
+                        <img src="" class="d-block w-100 tamañoIMG" alt="Imagen 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="color: black; font-weight: 900;">NIÑOS</h5>
+                            <p style="color: black;font-weight: 500;">LO MEJOR PARA LOS ENGREIDOS.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </div>
-
-    <!--Seccion 1 Home-->
-    <div class="container modBloque">
-        <div class="card shadow">
-            <img src="https://static.vecteezy.com/system/resources/previews/002/174/577/non_2x/modern-abstract-geometric-red-and-black-color-background-motion-sport-lines-poster-wallpaper-landing-page-illustration-vector.jpg" class="card-img-top" alt="es una imagen">
-            <div class="card-body">
-                <h5 class="card-title">Card Bienvenidos alumnos Certus</h5>
-                <p class="card-text">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                    survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                    with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
-                <!--<button class"btn btn-primary>hola boton</button>-->
-                <a href="#" class="btn btn-sm btn-primary " style="box-shadow:" rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;>Innova</a>
-
-
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
-    </div>
 
-    <!--Seccion 2 Servicios-->
-    <div class="container">
-        <h1>Servicios</h1>
-
-        <p>hola sección servicios</p>
-
-    </div>
-
-    <script src="./resources/Bootstrap/jquery-3.5.1.slim.min.js"></script>
-    <script src="./resources/Bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="./resources/Bootstrap/jquery-3.5.1.slim.min.js"></script>
+        <script src="./resources/Bootstrap/bootstrap.bundle.min.js"></script>
 
 </body>
 
