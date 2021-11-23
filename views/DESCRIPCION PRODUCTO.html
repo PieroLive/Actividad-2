@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+
+    <!--Referencias-->
+    <link rel="stylesheet" href="../resources/Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../resources/css/style.css">
+
+
+    <title>Strett Shoes</title>
+
+
+    <!--Aplicando estilos de tipo interno-->
+    <style>
+    h1 {
+            color: blueviolet !important;
+        }
+        
+        .tamañoIMG {
+            width: auto;
+            height: 720px;
+        }
+        
+        .fondoDescripcion {
+            background-color: #3a4a4a91;
+        }
+        
+        .removerjumbotron {
+            background-color: transparent
+        }
+        /*body {
+            height: 400px;
+            background-image: url(data:image/jpeg;base64,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);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;*/
+    }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <!--Barra de navehación-->
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="../index.html">INICIO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./REGISTRARSE.html">REGISTRARSE <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./PRODUCTOS.html">PRODUCTOS</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                NUEVO
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./HOMBRES.html">HOMBRE</a>
+                        <a class="dropdown-item" href="./MUJERES.html">MUJERES</a>
+
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./Niños.html">NIÑOS</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link indisabled" href="./ofertas.html" tabindex="-1" aria-disabled="false">OFERTAS</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <!--Descripcion Productos-->
+    <div class="card mb-3" style="max-width: 2000px; min-height: 500px; border-radius:0 auto;margin-left:15px ;margin-right: 15px;margin-top: 15px;background: whitesmoke;box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img style="width: 480px;height:500px ;" src="https://aws.glamour.es/prod/designs/v1/assets/620x930/597487.jpg" alt="foto zapatillas">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h2 class="card-title">NOMBRE MODELO DE ZAPATILLA</h2>
+                    <br>
+                    <h6 class="card-text">Zapatilla perfecta para salir a correr</h6>
+                    <h6 class="card-text"> updated 3 mins ago</h6>
+                    <h6 class="card-text"> updated 3 mins ago</h6>
+                    <h6 class="card-text"> Tallas Disponibles:</h6>
+                    <a href="#" class="btn btn-info">38</a>
+                    <a href="#" class="btn btn-info">39</a>
+                    <a href="#" class="btn btn-info">40</a>
+                    <a href="#" class="btn btn-info">41</a>
+                </div>
+                <br>
+                <br>
+                <left> <a href="#" class="btn btn-dark">Agragar al carrito de compras</a></left>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <footer>
+        Derechos Reservados &copy; 2021
+        <a class="nav-link" href="#">POLITICAS DE PRIVACIDAD <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">DERECHOS DE AUTOR<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="https://www.facebook.com/">FACEBOOK <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">WHATSAPP <span class="sr-only">(current)</span></a>
+
+    </footer>
+
+    <script src="../resources/Bootstrap/jquery-3.5.1.slim.min.js "></script>
+    <script src="../resources/Bootstrap/bootstrap.bundle.min.js "></script>
+
+</body>
+
+
+</html>
+
+</html>
