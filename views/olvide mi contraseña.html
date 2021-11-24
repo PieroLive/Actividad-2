@@ -6,43 +6,27 @@
 
     <!--Referencias-->
     <link rel="stylesheet" href="../resources/Bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="../resources/css/style.css">
+    <link rel="stylesheet" href="../resources/css/Olvide mi contraseña.css">
 
 
     <title>Strett Shoes</title>
 
 
     <!--Aplicando estilos de tipo interno-->
-    <style>
-        h1 {
-            color: blueviolet !important;
-        }
-        
-        .tamañoIMG {
-            width: auto;
-            height: 720px;
-        }
-        
-        .fondoDescripcion {
-            background-color: #3a4a4a91;
-        }
-        
-        .removerjumbotron {
-            background-color: transparent
-        }
-    </style>
+
     <!--JQUERY-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
     <!-- Los iconos tipo Solid de Fontawesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
     <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="static/css/index.css" th:href="@{/css/index.css}">
+    <!--<link rel="stylesheet" type="text/css" href="static/css/index.css" th:href="@{/css/index.css}">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
 <body>
@@ -87,42 +71,23 @@
         </div>
     </nav>
     <!--Seccion 1 Home-->
-    <form id="RAA">
-        <div class="form-group row" id="ga">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Correo</label>
-            <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3">
+    <h1>Recuperar contraseña</h1>
+    <div class="container">
+        <h2>Ingrese su correo con el que se ha registrado</h2>
+        <form action="" class="form">
+            <div class="form__correo">
+                <input type="email" placeholder="Ingrese su correo" class="correo">
             </div>
-        </div>
-        <div class="form-group row">
-            <label for="inputPassword3" class="col-sm-2 col-form-label">Nueva contraseña</label>
-            <div class="col-sm-10">
-                <input type="password" class="form-control" id="inputPassword3">
+            <div class="form__button">
+                <a href="">Salir</a>
+                <button>Enviar link</button>
             </div>
-        </div>
-        <div class="form-group row">
-            <label for="inputPassword3" class="col-sm-2 col-form-label">Nueva contraseña</label>
-            <div class="col-sm-10">
-                <input type="password" class="form-control" id="inputPassword3">
-            </div>
-        </div>
+        </form>
 
-        <div class="form-group row">
-            <div class="col-sm-10 offset-sm-2">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                    <label class="form-check-label" for="gridCheck1">
-                Guardar Contraseña
-              </label>
-                </div>
-            </div>
-        </div>
-        <div class="form-group row">
-            <div class="col-sm-10">
-                <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
-            </div>
-        </div>
-    </form>
+
+
+
+    </div>
     <script src="../resources/Bootstrap/jquery-3.5.1.slim.min.js "></script>
     <script src="../resources/Bootstrap/bootstrap.bundle.min.js "></script>
 
