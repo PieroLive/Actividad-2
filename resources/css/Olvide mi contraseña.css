@@ -42,3 +42,33 @@ h2 {
 .correo:focus {
     border-bottom: solid rgb(22, 38, 182) 2px;
 }
+
+.form__buttom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.salir {
+    text-decoration: none;
+    background: rgba(110, 143, 143, 0.425);
+    padding: 5px 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.salir:hover {
+    background: rgb(141, 189, 196);
+}
+
+.enviar {
+    background: rgb(86, 107, 43);
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: rgb(71, 150, 104);
+}
