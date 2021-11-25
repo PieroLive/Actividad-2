@@ -1,0 +1,16 @@
+h1 {
+    color: blueviolet !important;
+}
+
+.tamañoIMG {
+    width: auto;
+    height: 720px;
+}
+
+.fondoDescripcion {
+    background-color: #3a4a4a91;
+}
+
+.removerjumbotron {
+    background-color: transparent
+}
