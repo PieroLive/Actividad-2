@@ -1,16 +1,3 @@
-footer {
-    max-width: 10000px;
-    /*min-height: 250px;*/
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/949/561/310/cyberpunk-2077-samurai-hd-wallpaper-preview.jpg);
-    margin: 0 auto;
-    border: 0 0 20px 20px;
-    color: #fff;
-    text-align: center;
-    padding: 30px;
-    box-sizing: border-box;
-    font-size: 18px;
-}
-
 .slide {
     position: relative;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
@@ -37,9 +24,9 @@ footer {
 }
 
 .slide-item img {
-    display: block;
+    display: flexbox;
     height: auto;
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .slide-control {
@@ -126,4 +113,16 @@ footer {
     font-family: 'Open Sans', sans-serif;
     z-index: 9999;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+footer {
+    max-width: 100%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/949/561/310/cyberpunk-2077-samurai-hd-wallpaper-preview.jpg);
+    ;
+    border: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 18px;
 }
