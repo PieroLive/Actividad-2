@@ -10,3 +10,14 @@ footer {
     box-sizing: border-box;
     font-size: 18px;
 }
+
+h5 {
+    text-align: justify;
+    font-size: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+    border: black;
+    border-radius: border-box;
+    padding-bottom: 100px;
+    font-style: inherit;
+}

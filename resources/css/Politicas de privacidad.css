@@ -1,7 +1,7 @@
 footer {
     max-width: 10000px;
     /*min-height: 250px;*/
-    background: #000;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/949/561/310/cyberpunk-2077-samurai-hd-wallpaper-preview.jpg);
     margin: 0 auto;
     border: 0 0 20px 20px;
     color: #fff;
@@ -19,4 +19,5 @@ h5 {
     border: black;
     border-radius: border-box;
     padding-bottom: 100px;
+    font-style: inherit;
 }

@@ -6,7 +6,7 @@
 
     <!--Referencias-->
     <link rel="stylesheet" href="../resources/Bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="../resources/css/Iniciar sesion.css">
+    <link rel="stylesheet" href="../resources/css/Registrarse.css">
 
 
     <title>Strett Shoes</title>
@@ -86,44 +86,58 @@
             </form>
         </div>
     </nav>
+    <br>
+    <br>
+    <br>
+
+
     <!--Seccion 1 Home-->
 
-    <div class="modal-dialog text-center">
-        <div class="col-sm-8 main-section">
-            <div class="modal-content">
-                <div class="col-12 user-img">
-                    <img src="../resources/img/user.jpg" th:src="@{/img/user.png}" />
-                </div>
-                <form class="col-12" th:action="@{/login}" method="get">
-                    <div class="form-group" id="user-group">
-                        <input type="text" class="form-control" placeholder="Nombre de usuario" name="username" />
-                    </div>
-                    <div class="form-group" id="contrasena-group">
-                        <input type="password" class="form-control" placeholder="Contraseña" name="password" />
-                    </div>
-                    <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>  Ingresar </button>
-                </form>
-                <div class="col-12 forgot">
-                    <a href="./olvide mi contraseña.html">Olvidé mi contraseña</a>
-                </div>
-                <!--<div th:if="${param.error}" class="alert alert-danger" role="alert">
-                    Invalid username and password.
-                </div>
-                <div th:if="${param.logout}" class="alert alert-success" role="alert">
-                    You have been logged out.
-                </div>-->
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+    <center>
+        <div class="cod-container">
+            <div class="form-header">
 
-
+                <h1>Iniciar<span>Sesion</span></h1>
             </div>
-        </div>
+
+            <div class="form-content">
+                <form action="../index.html" class="cod-form">
+                    <div class="form-title">
+                        <h3>Iniciar Sesión</h3>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" class="form-input" name="form-input" id="correo">
+                        <label class="label" for="correo">Correo</label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="password" class="form-input" name="form-input" id="pass">
+                        <label class="label" for="pass">Contraseña</label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="submit" class="form-input" value="Iniciar Sesión">
+                        <p>No tienes cuenta? <a href="../views/REGISTRARSE.html" class="alt-form">Ingresa aquí</a></p>
+                    </div>
+
+                </form>
+    </center>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    </div>
     </div>
     <script src="../resources/Bootstrap/jquery-3.5.1.slim.min.js "></script>
     <script src="../resources/Bootstrap/bootstrap.bundle.min.js "></script>
+    <script src="../resources/js/registrarse.js"></script>
 
 </body>
 
