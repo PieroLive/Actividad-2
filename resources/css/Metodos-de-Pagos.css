@@ -61,8 +61,13 @@ table {
     width: 100%;
 }
 
-.linea-dos {
-    margin-left: 10%;
+.botons-compra {
+    display: flex;
+    justify-content: center;
+    border: solid 2px;
+    width: 200px;
+    height: auto;
+    background-color: crimson;
 }
 
 td,
@@ -74,7 +79,6 @@ th {
 footer {
     max-width: 100%;
     background-image: url(https://c4.wallpaperflare.com/wallpaper/949/561/310/cyberpunk-2077-samurai-hd-wallpaper-preview.jpg);
-    ;
     border: 0 0 20px 20px;
     color: #fff;
     text-align: center;

@@ -30,13 +30,16 @@ i {
 
 .tabla {
     display: flex;
-    justify-content: right;
-    margin-right: 5%;
+    justify-content: left;
+    margin-left: 5%;
 }
 
 .tablaDos {
     display: flex;
-    text-align: center;
+}
+
+hr {
+    width: 70%;
 }
 
 td,
